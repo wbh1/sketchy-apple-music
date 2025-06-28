@@ -1,0 +1,11 @@
+[package]
+name = "sketchy-apple-music"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+apple-music = "0.11.5"
+sketchybar-rs = "0.2.0"
+
+[lints.clippy]
+pedantic = "allow"
